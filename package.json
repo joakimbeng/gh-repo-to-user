@@ -1,0 +1,22 @@
+{
+  "name": "gh-repo-to-user",
+  "version": "0.1.0",
+  "description": "Get GitHub username from a repo, accepting repos like package.json\\'s repository field",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "xo",
+    "pretest": "npm run -s lint",
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "Joakim Carlstein <joakim@klei.se>",
+  "repository": "joakimbeng/gh-repo-to-user",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "dependencies": {
+    "is-plain-object": "^2.0.1"
+  }
+}
