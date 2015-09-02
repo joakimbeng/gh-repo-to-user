@@ -1,6 +1,6 @@
 {
   "name": "gh-repo-to-user",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Get GitHub username from a repo, accepting repos like package.json\\'s repository field",
   "main": "src/index.js",
   "scripts": {
